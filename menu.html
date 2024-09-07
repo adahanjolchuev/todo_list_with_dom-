@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Todo list</title>
+    <link rel="stylesheet" href="./menu.css" />
+  </head>
+  <body>
+    <header id="header">
+      <div class="container">
+        <div class="header">
+          <h1>TODO</h1>
+          <div class="linkes">
+            <a class="menuLinkes" href="#">Menu</a>
+            <a class="orderLinkes" href="#">Order</a>
+            <a class="adminLinkes" href="#">Admin</a>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <section id="menu">
+      <div class="container">
+        <h1 class="MenuOne">Menu</h1>
+        <div class="menu"></div>
+      </div>
+    </section>
+
+    <section id="order">
+      <div class="container">
+        <h1 class="OrderOne">Orders</h1>
+        <div class="order">
+          
+        </div>
+      </div>
+    </section>
+
+    <!-- ////////////////////////////////////////////////// -->
+
+    <section id="card">
+      <div class="container">
+        <div class="card">
+          <form>
+            <h1>Create product</h1>
+            <div class="inputs">
+              <input class="name" type="text" placeholder="name food" />
+              <input class="imgFood" type="text" placeholder="image food" />
+              <input class="price" type="text" placeholder="price" />
+            </div>
+            <button class="create_btn">create</button>
+            <button class="save_btn">save</button>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
+    <script src="./menu.js"></script>
+  </body>
+</html>
